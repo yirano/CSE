@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css?family=Merriweather|Raleway&display=swap');
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Raleway';
+}
+
+h1,
+h2,
+h3,
+h4 {
+	font-family: 'Merriweather';
+}
+
+p {
+  line-height: 1.7rem;
+  letter-spacing: 0.01rem;
+}
+
+.kickOff {
+  padding: 10%;
+}
+
+.questionBar {
+  display: flex;
+  position: relative;
+  justify-content: space-between;
+}
+
+.answerContent {
+  height: 0;
+  overflow: hidden;
+}
+
+
+.expand {
+  height: 40px;
+  width: 50px;
+  z-index: 999;
+  opacity: 0;
+}
+
+.expand:hover {
+  cursor: pointer;
+}
+
+span {
+  position: absolute; 
+  display: block;
+  right: 0;
+  width: 40px;
+  font-size: 3rem;
+}
